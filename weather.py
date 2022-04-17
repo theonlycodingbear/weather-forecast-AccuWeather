@@ -1,4 +1,4 @@
-#!/home/ubu/venv/bin python3
+
 import sqlite3
 import requests
 import tkinter as tk
@@ -12,7 +12,7 @@ from colors import pickColor
 class WeatherWithAccuweather(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.APIkey = 'XP5GhBSUjDUAvirtSypi5kU6RmtwCG52'
+        self.APIkey = 'your API key goes here'
         # initial geometry----------------------------------------------------------------------------------------------
         self.title('Weather forecasts')
         self.attributes('-zoomed', True) # full screen
